@@ -1,0 +1,16 @@
+version: '3.7'
+services:
+  streamer:
+    build:
+      context: ./
+    restart: always
+    container_name: handler
+    ports:
+      - 3005:3005
+    volumes:
+    - videos:videos
+
+networks:
+  default:
+    external:
+      name: db_network

@@ -1,0 +1,19 @@
+{
+  "name": "hologram-streamer",
+  "version": "1.0.0",
+  "description": "Streaming Service for Hologram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datafaust/hologram-streamer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datafaust/hologram-streamer/issues"
+  },
+  "homepage": "https://github.com/datafaust/hologram-streamer#readme"
+}
